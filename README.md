@@ -1,12 +1,14 @@
-# hackers-poulette
+*# HACKERS POULETTE*
 
   > Challenge : Create and use a PHP form to assimilate the learn from BeCode.
 
+
 - - -
+
 
 ## Name
  
-  HACKERS POULETTE
+  Hackers Poulette
   
 
 ## Description
@@ -39,7 +41,7 @@
 
 ## Status
  
-  - 21/03/2012 = Prepare environment
+  - 21/03/2012 => Prepare environment
   - 
 
 
