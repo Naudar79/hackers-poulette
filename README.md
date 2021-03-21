@@ -1,10 +1,9 @@
-# __HACKERS POULETTE__
+# HACKERS POULETTE
 
   > Challenge : Create and use a PHP form to assimilate the learn from BeCode.
 
 
 - - -
-
 
 ## Name
  
