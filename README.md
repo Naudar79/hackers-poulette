@@ -29,10 +29,13 @@
 
 ## Author
   
-  > Arnaud WANT (Naudar79)
-  > 
+  Arnaud WANT (Naudar79)
+ 
 
 ## Contributor
+
+  N/a
+  
 
 ## Status
  
@@ -41,4 +44,4 @@
 
 
 ## License
-[The Unlicense](https://choosealicense.com/licenses/unlicense/)
+  This project is created under the license: [The Unlicense](https://choosealicense.com/licenses/unlicense/)
