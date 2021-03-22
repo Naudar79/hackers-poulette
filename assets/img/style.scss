@@ -4,12 +4,17 @@
 }
 
 #content {
+    border-radius: 5%;
     background-color: #303030;
     color: white;
 }
 
-#horaire {
+ul {
     list-style: none;
+}
+
+#adresse {
+    margin-left: 3vw;
 }
 
 #ligne,

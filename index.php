@@ -24,7 +24,7 @@
                             <img id="mailBox" src="./assets/img/hackers-poulette-logo-neg.png" class="img-fluid" alt="Responsive image">
                             <fieldset>
                                 <legend>Visit us: </legend>
-                                <section>
+                                <section id="adresse">
                                     <p>Rue trucmuche, 58</p>
                                     <p>6001 Marcinelles</p>
                                     <p>Phone : +32 (0)71 12 34 56</p>
@@ -79,20 +79,25 @@
                                         <div class="form-group">
                                             <!--AWA : block Email + validate-->
                                             <label for="email">Email</label>
-                                            <input type="email" class="form-control border border-dark" id="email" placeholder="your mail here" required>
+                                            <input type="email" class="form-control border border-dark" id="email" placeholder="Email" required>
                                             <div class="valid-feedback">Valid</div>
                                             <div class="invalid-feedback">Required</div>
                                         </div>
-                                        
-                                        
+                                        <div class="form-group">
+                                            <!--AWA : block Email + validate-->
+                                            <label for="country">Country</label>
+                                            <input type="text" class="form-control border border-dark" id="country" placeholder="Country" required>
+                                            <div class="valid-feedback">Valid</div>
+                                            <div class="invalid-feedback">Required</div>
+                                        </div>                                        
                                         <div class="form-group">
                                             <!--AWA : block List to select the option-->
                                             <label for="selection">Why contact us ? </label>
                                             <select id="selection" class="form-control border border-dark">
-                                            <option value="">select...</option>
-                                            <option value="">Information</option>
-                                            <option value="">Order</option>
-                                            <option value="">Reserve</option>
+                                            <option value="0">select...</option>
+                                            <option value="1">Information</option>
+                                            <option value="2">Price</option>
+                                            <option value="3">Assistance</option>
                                             </select>
                                         </div>
                                             <div class="form-group">
