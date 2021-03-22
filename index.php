@@ -23,35 +23,33 @@
                             <!--AWA : Container img + liqt of phone numbers-->
                             <img id="mailBox" src="./assets/img/hackers-poulette-logo-neg.png" class="img-fluid" alt="Responsive image">
                             <fieldset>
-                                <legend>Ours phone numbers: </legend>
+                                <legend>Visit us: </legend>
+                                <section>
+                                    <p>Rue trucmuche, 58</p>
+                                    <p>6001 Marcinelles</p>
+                                    <p>Phone : +32 (0)71 12 34 56</p>
+                                </section>
                                 <ul class="list-group">
                                     <li class="list-group-item">
-                                        <p>Charleroi : +32 (0)71 12 34 56</p>
-                                        <div class="progress">
-                                            <!--AWA : Addendum : progress bars as modified by ERP/intranet-->
-                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%">Occupancy</div>
-                                        </div>
+                                        <p>Mon: closed | 13h30 - 17h00</p>
                                     </li>
                                     <li class="list-group-item">
-                                        <p>Milan : +39 (0)2 36 52 79 13</p>
-                                        <div class="progress">
-                                            <!--AWA : Addendum : progress bars as modified by ERP/intranet-->
-                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">Occupancy</div>
-                                        </div>
+                                        <p>Tue: 9h00 - 12h30 | 13h30 - 17h00</p>
                                     </li>
                                     <li class="list-group-item">
-                                        <p>Paris : +33 (0)9 87 36 23 95</p>
-                                        <div class="progress">
-                                            <!--AWA : Addendum : progress bars as modified by ERP/intranet-->
-                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">Occupancy</div>
-                                        </div>
+                                        <p>Wed: 9h00 - 12h30 | 13h30 - 17h00</p>
                                     </li>
                                     <li class="list-group-item">
-                                        <p>Dubai : +971 4 244 7291</p>
-                                        <div class="progress">
-                                            <!--AWA : Addendum : progress bars as modified by ERP/intranet-->
-                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">Occupancy</div>
-                                        </div>
+                                        <p>Thu: 9h00 - 12h30 | 13h30 - 17h00</p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p>Fri: 9h00 - 12h30 | 13h30 - 17h00</p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p>Sat: 9h00 - 12h30 | 13h30 - 17h00</p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p>Sun: Closed</p>
                                     </li>
                                 </ul>
                             </fieldset>
@@ -84,25 +82,8 @@
                                             <div class="valid-feedback">Valid</div>
                                             <div class="invalid-feedback">Required</div>
                                         </div>
-                                        <div class="form-group">
-                                            <!--AWA : block Phone number + validate-->
-                                            <!--AWA : Addendum : test number only-->
-                                            <label for="phone">Phone number</label>
-                                            <input type="text" class="form-control border border-dark" id="phone" placeholder="+32 (0)71 12 23 34" required>
-                                            <div class="valid-feedback">Valid</div>
-                                            <div class="invalid-feedback">Required</div>
-                                        </div>
-                                        <div class="form-group">
-                                            <!--AWA : block List to select the location-->
-                                            <label for="selection">Select your place </label>
-                                            <select id="selection" class="form-control border border-dark" required>
-                                             <option value="">location...</option>
-                                             <option value="">Charleroi (BE)</option>
-                                             <option value="">Milan (IT)</option>
-                                             <option value="">Paris (FR)</option>
-                                             <option value="">Dubai (EK)</option>
-                                            </select>
-                                        </div>
+                                        
+                                        
                                         <div class="form-group">
                                             <!--AWA : block List to select the option-->
                                             <label for="selection">Why contact us ? </label>
@@ -140,11 +121,10 @@
             </section>
         </article>
     </main>
-    
+    <footer>
+        <p>
+            *ici se trouve le footer*
+        </p>
+    </footer>
 </body>
 </html>
-
-
-<?php
- echo 'test';
-?>
