@@ -29,26 +29,26 @@
                                     <p>6001 Marcinelles</p>
                                     <p>Phone : +32 (0)71 12 34 56</p>
                                 </section>
-                                <ul class="list-group">
-                                    <li class="list-group-item">
+                                <ul class="horaire">
+                                    <li class="day">
                                         <p>Mon: closed | 13h30 - 17h00</p>
                                     </li>
-                                    <li class="list-group-item">
+                                    <li class="day">
                                         <p>Tue: 9h00 - 12h30 | 13h30 - 17h00</p>
                                     </li>
-                                    <li class="list-group-item">
+                                    <li class="day">
                                         <p>Wed: 9h00 - 12h30 | 13h30 - 17h00</p>
                                     </li>
-                                    <li class="list-group-item">
+                                    <li class="day">
                                         <p>Thu: 9h00 - 12h30 | 13h30 - 17h00</p>
                                     </li>
-                                    <li class="list-group-item">
+                                    <li class="day">
                                         <p>Fri: 9h00 - 12h30 | 13h30 - 17h00</p>
                                     </li>
-                                    <li class="list-group-item">
+                                    <li class="day">
                                         <p>Sat: 9h00 - 12h30 | 13h30 - 17h00</p>
                                     </li>
-                                    <li class="list-group-item">
+                                    <li class="day">
                                         <p>Sun: Closed</p>
                                     </li>
                                 </ul>
