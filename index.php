@@ -100,7 +100,7 @@
                                         <option value="">Milan (IT)</option>
                                         <option value="">Paris (FR)</option>
                                         <option value="">Dubai (EK)</option>
-                                    </select>
+                                        </select>
                                         </div>
                                         <div class="form-group">
                                             <!--AWA : block List to select the option-->
@@ -110,8 +110,8 @@
                                             <option value="">Information</option>
                                             <option value="">Order</option>
                                             <option value="">Reserve</option>
+                                            </select>
                                         </div>
-                                    </select>
                                             <div class="form-group">
                                                 <label for="message">Message</label>
                                                 <!--AWA : block message box-->
@@ -129,7 +129,7 @@
                                             <!--AWA : Submit button-->
                                             <!--AWA : Addendum : default = inactive. if all label is "validate" activate the button-->
                                             <!--AWA : Addendum : on submit pull the form by mail or into the ERP-->
-                                            <button type="submit" class="btn btn-primary bg-white btn btn-outline-light">Submit</button>
+                                            <button type="button" class="btn btn-primary btn-lg active">Primary button </button>
                                     </fieldset>
                                 </form>
                                 </div>
