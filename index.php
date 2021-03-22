@@ -130,8 +130,7 @@
                                             <!--AWA : Addendum : default = inactive. if all label is "validate" activate the button-->
                                             <!--AWA : Addendum : on submit pull the form by mail or into the ERP-->
                                             <button type="submit" class="btn btn-primary bg-white btn btn-outline-light">                                    
-                                        <img src="./assets/img/submit.png" class="rounded mx-auto d-block" alt="Submit" width="60px" height="60px">
-                                    </button>
+                                            </button>
                                     </fieldset>
                                 </form>
                                 </div>
