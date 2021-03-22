@@ -21,7 +21,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <!--AWA : Container img + liqt of phone numbers-->
-                            <img id="mailBox" src="./assets/img/mailbox.jpg" class="img-fluid" alt="Responsive image">
+                            <img id="mailBox" src="./assets/img/hackers-poulette-logo-neg.png" class="img-fluid" alt="Responsive image">
                             <fieldset>
                                 <legend>Ours phone numbers: </legend>
                                 <ul class="list-group">
@@ -129,7 +129,7 @@
                                             <!--AWA : Submit button-->
                                             <!--AWA : Addendum : default = inactive. if all label is "validate" activate the button-->
                                             <!--AWA : Addendum : on submit pull the form by mail or into the ERP-->
-                                        <button type="button" class="btn btn-primary btn-lg active">Primary button </button>
+                                        <button type="button" class="">Primary button </button>
                                     </fieldset>
                                 </form>
                                 </div>
