@@ -28,6 +28,7 @@
                                     <p>Rue trucmuche, 58</p>
                                     <p>6001 Marcinelles</p>
                                     <p>Phone : +32 (0)71 12 34 56</p>
+                                    <hr id="ligne">
                                 </section>
                                 <ul class="horaire">
                                     <li class="day">
