@@ -95,12 +95,12 @@
                                             <!--AWA : block List to select the location-->
                                             <label for="selection">Select your place </label>
                                             <select id="selection" class="form-control border border-dark" required>
-                                        <option value="">location...</option>
-                                        <option value="">Charleroi (BE)</option>
-                                        <option value="">Milan (IT)</option>
-                                        <option value="">Paris (FR)</option>
-                                        <option value="">Dubai (EK)</option>
-                                        </select>
+                                             <option value="">location...</option>
+                                             <option value="">Charleroi (BE)</option>
+                                             <option value="">Milan (IT)</option>
+                                             <option value="">Paris (FR)</option>
+                                             <option value="">Dubai (EK)</option>
+                                            </select>
                                         </div>
                                         <div class="form-group">
                                             <!--AWA : block List to select the option-->
@@ -121,15 +121,15 @@
                                                 <!--AWA : block check private policy-->
                                                 <!--AWA : Addendum : create a rules : if checkbox is not checked, get button inactive-->
                                                 <label class="form-check-label">
-                                      <input class="form-check-input border border-dark" type="checkbox" name="remember" required> I agree on <a href="#">terms of use</a>
-                                      <div class="valid-feedback">Valid</div>
-                                      <div class="invalid-feedback">Check this checkbox befor submit</div>
-                                    </label>
+                                                 <input class="form-check-input border border-dark" type="checkbox" name="remember" required> I agree on <a href="#">terms of use</a>
+                                                 <div class="valid-feedback">Valid</div>
+                                                 <div class="invalid-feedback">Check this checkbox befor submit</div>
+                                                </label>
                                             </div>
                                             <!--AWA : Submit button-->
                                             <!--AWA : Addendum : default = inactive. if all label is "validate" activate the button-->
                                             <!--AWA : Addendum : on submit pull the form by mail or into the ERP-->
-                                            <button type="button" class="btn btn-primary btn-lg active">Primary button </button>
+                                        <button type="button" class="btn btn-primary btn-lg active">Primary button </button>
                                     </fieldset>
                                 </form>
                                 </div>
