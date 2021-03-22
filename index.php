@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/img/style.css">
-    <title>HP - Contact</title>
+    <link rel="icon" type="image/png" href="./assets/img/hackers-poulette.png">
+
+    <title>HP - Contact form</title>
 </head>
 <body>
     <header>
@@ -24,10 +26,18 @@
                             <img id="mailBox" src="./assets/img/hackers-poulette-logo-neg.png" class="img-fluid" alt="Responsive image">
                             <fieldset>
                                 <legend>Visit us: </legend>
-                                <section id="adresse">
-                                    <p>Rue trucmuche, 58</p>
-                                    <p>6001 Marcinelles</p>
-                                    <p>Phone : +32 (0)71 12 34 56</p>
+                                <section id="adresse">  
+                                    <ul class="horaire">
+                                        <li>
+                                            <p>Rue trucmuche, 58</p>
+                                        </li>
+                                        <li>
+                                            <p>6001 Marcinelles</p>
+                                        </li>
+                                        <li>
+                                            <p>Phone : +32 (0)71 12 34 56</p>
+                                        </li>
+                                    </ul>
                                     <hr id="ligne">
                                 </section>
                                 <ul class="horaire">
@@ -76,6 +86,8 @@
                                             <div class="valid-feedback">Valid</div>
                                             <div class="invalid-feedback">Required</div>
                                         </div>
+
+
                                         <div class="form-group">
                                             <!--AWA : block Email + validate-->
                                             <label for="email">Email</label>
