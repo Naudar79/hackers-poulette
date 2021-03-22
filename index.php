@@ -18,7 +18,6 @@
                 <!--AWA : Page for contact-->
                 <div class="container-md p-3 my-3 border align-content-lg-center" id="content">
                     <!--AWA : General container-->
-                    <h1>Contact</h1>
                     <div class="row">
                         <div class="col-md-6">
                             <!--AWA : Container img + liqt of phone numbers-->
@@ -61,6 +60,7 @@
                             <div class="container">
                                 <!--AWA : Container contain the form-->
                                 <form class="was-validated">
+                                    <h1>Contact</h1>
                                     <fieldset>
                                         <legend>Contact us with this form: </legend>
                                         <div class="form-group">
