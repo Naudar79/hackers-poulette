@@ -130,7 +130,7 @@
                                             <!--AWA : Submit button-->
                                             <!--AWA : Addendum : default = inactive. if all label is "validate" activate the button-->
                                             <!--AWA : Addendum : on submit pull the form by mail or into the ERP-->
-                                        <button type="submit" class="bouton">Submit </button>
+                                            <input class="btn btn-primary" type="submit" value="Submit" id="submit">
                                     </fieldset>
                                 </form>
                                 </div>
