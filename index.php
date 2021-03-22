@@ -11,7 +11,6 @@
     <header>
     <p>*ici se trouvera le menu du site*</p>
     </header>
-
     <main>
         <article>
             <section class="frmContact">
@@ -20,6 +19,43 @@
                     <!--AWA : General container-->
                     <h1>Contact</h1>
                     <div class="row">
+                        <div class="col-md-6">
+                            <!--AWA : Container img + liqt of phone numbers-->
+                            <img id="mailBox" src="./assets/img/mailbox.jpg" class="img-fluid" alt="Responsive image">
+                            <fieldset>
+                                <legend>Ours phone numbers: </legend>
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <p>Charleroi : +32 (0)71 12 34 56</p>
+                                        <div class="progress">
+                                            <!--AWA : Addendum : progress bars as modified by ERP/intranet-->
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%">Occupancy</div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p>Milan : +39 (0)2 36 52 79 13</p>
+                                        <div class="progress">
+                                            <!--AWA : Addendum : progress bars as modified by ERP/intranet-->
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">Occupancy</div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p>Paris : +33 (0)9 87 36 23 95</p>
+                                        <div class="progress">
+                                            <!--AWA : Addendum : progress bars as modified by ERP/intranet-->
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">Occupancy</div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p>Dubai : +971 4 244 7291</p>
+                                        <div class="progress">
+                                            <!--AWA : Addendum : progress bars as modified by ERP/intranet-->
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">Occupancy</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </fieldset>
+                        </div>
                         <div class="col-md-6">
                             <div class="container">
                                 <!--AWA : Container contain the form-->
@@ -105,6 +141,7 @@
             </section>
         </article>
     </main>
+    
 </body>
 </html>
 
