@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>HP - Contact</title>
 </head>
 <body>
-<main>
+    <header>
+    <p>*ici se trouvera le menu du site*</p>
+    </header>
+
+    <main>
         <article>
             <section class="frmContact">
                 <!--AWA : Page for contact-->
@@ -15,43 +20,6 @@
                     <!--AWA : General container-->
                     <h1>Contact</h1>
                     <div class="row">
-                        <div class="col-md-6">
-                            <!--AWA : Container img + liqt of phone numbers-->
-                            <img id="mailBox" src="./assets/img/mailbox.jpg" class="img-fluid" alt="Responsive image">
-                            <fieldset>
-                                <legend>Ours phone numbers: </legend>
-                                <ul class="list-group">
-                                    <li class="list-group-item">
-                                        <p>Charleroi : +32 (0)71 12 34 56</p>
-                                        <div class="progress">
-                                            <!--AWA : Addendum : progress bars as modified by ERP/intranet-->
-                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%">Occupancy</div>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <p>Milan : +39 (0)2 36 52 79 13</p>
-                                        <div class="progress">
-                                            <!--AWA : Addendum : progress bars as modified by ERP/intranet-->
-                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">Occupancy</div>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <p>Paris : +33 (0)9 87 36 23 95</p>
-                                        <div class="progress">
-                                            <!--AWA : Addendum : progress bars as modified by ERP/intranet-->
-                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">Occupancy</div>
-                                        </div>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <p>Dubai : +971 4 244 7291</p>
-                                        <div class="progress">
-                                            <!--AWA : Addendum : progress bars as modified by ERP/intranet-->
-                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">Occupancy</div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </fieldset>
-                        </div>
                         <div class="col-md-6">
                             <div class="container">
                                 <!--AWA : Container contain the form-->
@@ -139,6 +107,7 @@
     </main>
 </body>
 </html>
+
 
 <?php
  echo 'test';
