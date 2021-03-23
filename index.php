@@ -8,11 +8,25 @@
     <link rel="stylesheet" href="assets/img/style.css">
     <link rel="icon" type="image/png" href="./assets/img/hackers-poulette.png">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="../Single%20Page%20Site/assets/img/Logo.png">
+    <script src="./assets/responsiveMenu.js"></script>
+
     <title>HP - Contact form</title>
 </head>
 <body>
     <header>
-    <p>*ici se trouvera le menu du site*</p>
+     <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="#" class="active">Home</a>
+                <a href="#">News</a>
+                <a href="#">Product</a>
+                <a href="#">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
     </header>
     <main>
         <article>
