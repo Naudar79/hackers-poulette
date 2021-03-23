@@ -130,10 +130,10 @@
                                             <!--AWA : block List to select the option-->
                                             <label for="selection">Why contact us ? </label>
                                             <select id="selection" class="form-control border border-dark" name="why">
-                                            <option value="0">Other...</option>
-                                            <option value="1">Information</option>
-                                            <option value="2">Price</option>
-                                            <option value="3">Assistance</option>
+                                            <option value="Other">Other...</option>
+                                            <option value="Information">Information</option>
+                                            <option value="Price">Price</option>
+                                            <option value="Assistance">Assistance</option>
                                             </select>
                                         </div>
                                             <div class="form-group">
