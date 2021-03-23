@@ -166,9 +166,9 @@
         </article>
     </main>
     <footer>
-        <p>
-            *ici se trouve le footer*
-        </p>
+        <div id="foot">
+            <p>Footer</p>
+        </div>
     </footer>
 </body>
 </html>
