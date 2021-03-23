@@ -82,55 +82,55 @@
                         <div class="col-md-6">
                             <div class="container">
                                 <!--AWA : Container contain the form-->
-                                <form class="was-validated">
-                                    <h1>Contact</h1>
+                                <form class="was-validated" action="cible.php" method="POST">
+                                    <h2>Contact</h2>
                                     <fieldset>
                                         <legend>Contact us with this form: </legend>
                                         <div class="form-group">
                                             <!--AWA : block firstname + validate-->
                                             <label for="firstName">Firstname</label>
-                                            <input type="text" class="form-control border border-dark" id="fName" placeholder="Firstname" required>
+                                            <input type="text" class="form-control border border-dark" id="fName" name="fName" placeholder="Firstname" required>
                                             <div class="valid-feedback">Valid</div>
                                             <div class="invalid-feedback">Required</div>
                                         </div>
                                         <div class="form-group">
                                             <!--AWA : block Lastname + validate-->
                                             <label for="lastname">Lastname</label>
-                                            <input type="text" class="form-control border border-dark" id="lName" placeholder="Lastname" required>
+                                            <input type="text" class="form-control border border-dark" id="lName" name="lName" placeholder="Lastname" required>
                                             <div class="valid-feedback">Valid</div>
                                             <div class="invalid-feedback">Required</div>
                                         </div>
                                             <label for="sex">choice your sex:</label>
                                             <div>
-                                                <input type="radio" id="man" name="drone" value="man" checked>
+                                                <input type="radio" id="man" name="genre" value="man" checked require>
                                                 <label for="man">Man</label>
                                             
-                                                <input type="radio" id="woman" name="drone" value="woman">
+                                                <input type="radio" id="woman" name="genre" value="woman">
                                                 <label for="woman">Woman</label>
 
-                                                <input type="radio" id="noGenre" name="drone" value="noGenre">
+                                                <input type="radio" id="noGenre" name="genre" value="noGenre">
                                                 <label for="noGenre">X</label>
                                             </div>
 
                                         <div class="form-group">
                                             <!--AWA : block Email + validate-->
                                             <label for="email">Email</label>
-                                            <input type="email" class="form-control border border-dark" id="email" placeholder="Email" required>
+                                            <input type="email" class="form-control border border-dark" id="email" name="eMail" placeholder="Email" required>
                                             <div class="valid-feedback">Valid</div>
                                             <div class="invalid-feedback">Required</div>
                                         </div>
                                         <div class="form-group">
                                             <!--AWA : block Email + validate-->
                                             <label for="country">Country</label>
-                                            <input type="text" class="form-control border border-dark" id="country" placeholder="Country" required>
+                                            <input type="text" class="form-control border border-dark" id="country" name="country" placeholder="Country" required>
                                             <div class="valid-feedback">Valid</div>
                                             <div class="invalid-feedback">Required</div>
                                         </div>                                        
                                         <div class="form-group">
                                             <!--AWA : block List to select the option-->
                                             <label for="selection">Why contact us ? </label>
-                                            <select id="selection" class="form-control border border-dark">
-                                            <option value="0">Autre...</option>
+                                            <select id="selection" class="form-control border border-dark" name="why">
+                                            <option value="0">Other...</option>
                                             <option value="1">Information</option>
                                             <option value="2">Price</option>
                                             <option value="3">Assistance</option>
@@ -139,18 +139,11 @@
                                             <div class="form-group">
                                                 <label for="message">Message</label>
                                                 <!--AWA : block message box-->
-                                                <textarea class="form-control border border-dark" id="message" rows="3" required></textarea>
+                                                <textarea class="form-control border border-dark" id="message" rows="3" name="message" required></textarea>
                                                 <div class="valid-feedback">Valid</div>
                                                 <div class="invalid-feedback">Required</div>
                                             </div>
                                             <div class="form-group form-check">
-                                                <!--AWA : block check private policy-->
-                                                <!--AWA : Addendum : create a rules : if checkbox is not checked, get button inactive-->
-                                                <label class="form-check-label">
-                                                 <input class="form-check-input border border-dark" type="checkbox" name="remember" required> I agree on <a href="#">terms of use</a>
-                                                 <div class="valid-feedback">Valid</div>
-                                                 <div class="invalid-feedback">Check this checkbox befor submit</div>
-                                                </label>
                                             </div>
                                             <!--AWA : Submit button-->
                                             <!--AWA : Addendum : default = inactive. if all label is "validate" activate the button-->
