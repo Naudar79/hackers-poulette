@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/img/style.css">
     <link rel="icon" type="image/png" href="./assets/img/hackers-poulette.png">
 
@@ -86,7 +86,17 @@
                                             <div class="valid-feedback">Valid</div>
                                             <div class="invalid-feedback">Required</div>
                                         </div>
+                                            <label for="sex">choice your sex:</label>
+                                            <div>
+                                                <input type="radio" id="man" name="drone" value="man" checked>
+                                                <label for="man">Man</label>
+                                            
+                                                <input type="radio" id="woman" name="drone" value="woman">
+                                                <label for="woman">Woman</label>
 
+                                                <input type="radio" id="noGenre" name="drone" value="noGenre">
+                                                <label for="noGenre">X</label>
+                                            </div>
 
                                         <div class="form-group">
                                             <!--AWA : block Email + validate-->
@@ -106,7 +116,7 @@
                                             <!--AWA : block List to select the option-->
                                             <label for="selection">Why contact us ? </label>
                                             <select id="selection" class="form-control border border-dark">
-                                            <option value="0">select...</option>
+                                            <option value="0">Autre...</option>
                                             <option value="1">Information</option>
                                             <option value="2">Price</option>
                                             <option value="3">Assistance</option>
@@ -115,7 +125,9 @@
                                             <div class="form-group">
                                                 <label for="message">Message</label>
                                                 <!--AWA : block message box-->
-                                                <textarea class="form-control border border-dark" id="message" rows="3"></textarea>
+                                                <textarea class="form-control border border-dark" id="message" rows="3" required></textarea>
+                                                <div class="valid-feedback">Valid</div>
+                                                <div class="invalid-feedback">Required</div>
                                             </div>
                                             <div class="form-group form-check">
                                                 <!--AWA : block check private policy-->
