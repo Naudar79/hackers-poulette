@@ -1,3 +1,6 @@
+<?php
+   // require 'cible.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,17 +19,17 @@
 </head>
 <body>
     <header>
-     <nav>
-            <div class="topnav" id="myTopnav">
-                <a href="#" class="active">Home</a>
-                <a href="#">News</a>
-                <a href="#">Product</a>
-                <a href="#">Contact</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
-            </div>
-        </nav>
+      <nav>
+        <div class="topnav" id="myTopnav">
+            <a href="#" class="active">Home</a>
+            <a href="#">News</a>
+            <a href="#">Product</a>
+            <a href="#">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+      </nav>
     </header>
     <main>
         <article>
