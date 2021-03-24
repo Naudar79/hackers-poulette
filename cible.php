@@ -14,16 +14,15 @@
     <p>Reason : <?php echo $_POST['why'] ?></p>
     <p>Message : <?php echo $_POST['message'] ?></p>
     <?php
-        $msg = "Nom:\t$fName\n";
-        $msg = "Nom:\t$lName\n";
-        $msg = "Nom:\t$genre\n";
-        $msg .= "E-Mail:\t$eMail\n";
-        $msg = "Nom:\t$country\n";
-        $msg = "Nom:\t$why\n";
-        $msg .= "Message:\t$message\n\n";
-        //Pourait continuer ainsi jusqu'à la fin du formulaire
+        $msgMail = "First Name:$fName\n";
+        $msgMail .= "Last Name:$lName\n";
+        $msgMail .= "Sex:$genre\n";
+        $msgMail .= "E-Mail:$eMail\n";
+        $msgMail .= "Country:$country\n";
+        $msgMail .= "Reason:$why\n";
+        $msgMail .= "Message:$message\n\n";
 
-        $recipient = "tonCourriel@mail.com";
+        $recipient = "hpawa@yopmail.com";
         $subject = "Formulaire";
 
         $mailheaders = "From: Mon test de formulaire<> \n";
