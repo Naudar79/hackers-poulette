@@ -36,8 +36,8 @@
                     <!--AWA : General container-->
                     <div class="row">
                         <div class="col-md-6">
-                            <!--AWA : Container img + liqt of phone numbers-->
-                            <img id="mailBox" src="./assets/img/hackers-poulette-logo-neg.png" class="img-fluid" alt="Responsive image">
+                            <!--AWA : Container img-->
+                            <img id="mailBox" src="./assets/img/hackers-poulette-logo-neg.png" class="img-fluid" alt="Logo hackers-poulette">
                             <fieldset>
                                 <legend>Visit us: </legend>
                                 <section id="adresse">  
@@ -103,13 +103,13 @@
                                             <label for="sex">choice your sex:</label>
                                             <div>
                                                 <input type="radio" id="man" name="genre" value="man" checked require>
-                                                <label for="man">Man</label>
+                                                <label for="man">♂</label>
                                             
                                                 <input type="radio" id="woman" name="genre" value="woman">
-                                                <label for="woman">Woman</label>
+                                                <label for="woman">♀</label>
 
                                                 <input type="radio" id="noGenre" name="genre" value="noGenre">
-                                                <label for="noGenre">X</label>
+                                                <label for="noGenre">?</label>
                                             </div>
 
                                         <div class="form-group">
