@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="../Single%20Page%20Site/assets/img/Logo.png">
     <script src="./assets/responsiveMenu.js"></script>
-    <title>Document</title>
+    <title>HP - Confirm</title>
 </head>
 <body>
 <header>
@@ -20,7 +20,7 @@
             <a href="#" class="active">Home</a>
             <a href="#">News</a>
             <a href="#">Product</a>
-            <a href="#">Contact</a>
+            <a href="index.php">Contact</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
             </a>
@@ -28,17 +28,17 @@
       </nav>
     </header>
     <main>
-    <p>Merci pour votre message :</p>
-    <p>First name : <?php echo $_POST['fName'] ?></p>
-    <p>Last name : <?php echo $_POST['lName'] ?></p>
-    <p>sex : <?php echo $_POST['genre'] ?></p>
-    <p>Email : <?php echo $_POST['eMail'] ?></p>
-    <p>Country : <?php echo $_POST['country'] ?></p>
-    <p>Reason : <?php echo $_POST['why'] ?></p>
-    <p>Message : <?php echo $_POST['message'] ?></p>
-    <p>Nous vous répondons dans les plus brefs délais.</p>
-
-    <?php
+     <p>Merci pour votre message :</p>
+     <p>First name : <?php echo $_POST['fName'] ?></p>
+     <p>Last name : <?php echo $_POST['lName'] ?></p>
+     <p>sex : <?php echo $_POST['genre'] ?></p>
+     <p>Email : <?php echo $_POST['eMail'] ?></p>
+     <p>Country : <?php echo $_POST['country'] ?></p>
+     <p>Reason : <?php echo $_POST['why'] ?></p>
+     <p>Message : <?php echo $_POST['message'] ?></p>
+     <p>Nous vous répondons dans les plus brefs délais.</p>
+     <a href="index.php">Contact</a>
+     <?php
         use PHPMailer\PHPMailer\PHPMailer;
         use PHPMailer\PHPMailer\SMTP;
         use PHPMailer\PHPMailer\Exception;
@@ -82,12 +82,12 @@
         } catch (Exception $e) {
             echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
         }
-    ?>
+     ?>
     </main>
     <footer>
-    <div id="foot">
-            <p>Footer</p>
-        </div>
+     <div id="foot">
+      <p>Footer</p>
+     </div>
     </footer>
 </body>
 </html>

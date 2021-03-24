@@ -111,7 +111,7 @@
                                                 <input type="radio" id="woman" name="genre" value="woman">
                                                 <label for="woman">♀</label>
 
-                                                <input type="radio" id="noGenre" name="genre" value="noGenre">
+                                                <input type="radio" id="noGenre" name="genre" value="X">
                                                 <label for="noGenre">?</label>
                                             </div>
 
