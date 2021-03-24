@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    <p>Merci pour votre message :</p>
     <p>First name : <?php echo $_POST['fName'] ?></p>
     <p>Last name : <?php echo $_POST['lName'] ?></p>
     <p>sex : <?php echo $_POST['genre'] ?></p>
@@ -13,22 +14,6 @@
     <p>Country : <?php echo $_POST['country'] ?></p>
     <p>Reason : <?php echo $_POST['why'] ?></p>
     <p>Message : <?php echo $_POST['message'] ?></p>
-    <?php
-        $msgMail = "First Name:".$fName."\n";
-        $msgMail .= "Last Name:".$lName."\n";
-        $msgMail .= "Sex:".$genre."\n";
-        $msgMail .= "E-Mail:".$eMail."\n";
-        $msgMail .= "Country:".$country."\n";
-        $msgMail .= "Reason:".$why."\n";
-        $msgMail .= "Message:".$message."\n";
-
-        $recipient = "hpawa@yopmail.com";
-        $subject = "Formulaire";
-
-        $mailheaders = "From: Mon test de formulaire<> \n";
-        $mailheaders .= "Reply-To: $email\n\n";
-
-        mail($recipient, $subject, $msg, $mailheaders);
-    ?>
+    <p>Nous vous répondons dans les plus brefs délais.</p>
 </body>
 </html>
