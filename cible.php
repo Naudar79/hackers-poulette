@@ -15,5 +15,30 @@
     <p>Reason : <?php echo $_POST['why'] ?></p>
     <p>Message : <?php echo $_POST['message'] ?></p>
     <p>Nous vous répondons dans les plus brefs délais.</p>
+
+    <?php
+        $fName = $_POST['fName'];
+        $lName = $_POST['lName'];
+        $genre = $_POST['genre'];
+        $eMail = $_POST['eMail'];
+        $country = $_POST['country'];
+        $why = $_POST['why'];
+        $message = $_POST['message'];
+        $msgMail = "First Name:".$fName."\r\n";
+        $msgMail .= "Last Name:".$lName."\r\n";
+        $msgMail .= "Sex:".$genre."\r\n";
+        $msgMail .= "E-Mail:".$eMail."\r\n";
+        $msgMail .= "Country:".$country."\r\n";
+        $msgMail .= "Reason:".$why."\r\n";
+        $msgMail .= "Message:".$message."\r\n";
+
+        $to = "becode.awa@gmail.com";
+        $subject = "Formulaire";
+
+        $mailheaders = "From: Mon test de formulaire<> \n";
+        $mailheaders .= "Reply-To: $email\n\n";
+
+        mail($to, $subject, $msgMail, $mailheaders);
+    ?>
 </body>
 </html>

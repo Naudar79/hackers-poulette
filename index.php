@@ -151,23 +151,6 @@
                                             <input class="btn btn-primary" type="submit" value="Submit" id="submit">
                                     </fieldset>
                                 </form>
-                                <?php
-                                    $msgMail = "First Name:".$fName."\n";
-                                    $msgMail .= "Last Name:".$lName."\n";
-                                    $msgMail .= "Sex:".$genre."\n";
-                                    $msgMail .= "E-Mail:".$eMail."\n";
-                                    $msgMail .= "Country:".$country."\n";
-                                    $msgMail .= "Reason:".$why."\n";
-                                    $msgMail .= "Message:".$message."\n";
-
-                                    $recipient = "hpawa@yopmail.com";
-                                    $subject = "Formulaire";
-
-                                    $mailheaders = "From: Mon test de formulaire<> \n";
-                                    $mailheaders .= "Reply-To: $email\n\n";
-
-                                    mail($recipient, $subject, $msg, $mailheaders);
-                                ?>
                                 </div>
                             </div>
                         </div>
