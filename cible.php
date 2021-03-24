@@ -14,13 +14,13 @@
     <p>Reason : <?php echo $_POST['why'] ?></p>
     <p>Message : <?php echo $_POST['message'] ?></p>
     <?php
-        $msgMail = "First Name:$fName\n";
-        $msgMail .= "Last Name:$lName\n";
-        $msgMail .= "Sex:$genre\n";
-        $msgMail .= "E-Mail:$eMail\n";
-        $msgMail .= "Country:$country\n";
-        $msgMail .= "Reason:$why\n";
-        $msgMail .= "Message:$message\n\n";
+        $msgMail = "First Name:".$fName."\n";
+        $msgMail .= "Last Name:".$lName."\n";
+        $msgMail .= "Sex:".$genre."\n";
+        $msgMail .= "E-Mail:".$eMail."\n";
+        $msgMail .= "Country:".$country."\n";
+        $msgMail .= "Reason:".$why."\n";
+        $msgMail .= "Message:".$message."\n";
 
         $recipient = "hpawa@yopmail.com";
         $subject = "Formulaire";
