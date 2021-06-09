@@ -40,9 +40,13 @@
 
 ## Status
  
-  - 21/03/2012 => Prepare environment
-  - 22/03/2021 => Analyze and front
-  - 
+  - Prepare environment
+  - Analyze and front
+  - Create form
+  - Test text area are empty
+  - Send form at e-mail adress
+  - Display data on new web page
+  - Upload page into Heroku
 
 
 ## License
